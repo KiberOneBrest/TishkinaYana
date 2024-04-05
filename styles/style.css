@@ -1,0 +1,133 @@
+body{
+    background-color: rgb(248, 224, 205);
+
+}
+.main-menu{
+    width: 100%;
+    background-color: rgb(119, 100, 83);
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.nav-menu{
+    display: flex;
+    justify-content: space-between;
+    color: rgb(167, 136, 107);
+    list-style: none;
+    margin: 0 auto;
+    
+}
+
+.nav-menu a{
+    color: #f3d0bc;
+    text-decoration: none;
+}
+
+main{
+    width: 100%;
+    max-width: 1000px;
+    background-color: rgb(221, 187, 155);
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    
+}
+.country-list{
+width:100%;
+background-color: #8d6d5b;
+max-width: 1000px;
+margin: 0 auto;
+padding: 20px;
+}
+.country-item{
+    width: 100%;
+    background-color: rgb(214, 200, 181);
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 5px;
+}
+.main-header{
+   background-color: #c29e8b;
+    margin: 0 auto;
+    padding: 20px;
+}
+.main-text{
+   background-color: #9b725a;
+   margin:0 auto;
+   padding: 20px;
+}
+.word-map,.country-img{
+  display: block;  
+  width: 50%;
+  margin: 0 auto;
+  border-radius: 10%;
+}
+.menu-item{
+    width: 100%;
+color: #7e6150;
+max-width: 1000px;
+margin: 0 auto;
+padding: 5px;
+}
+.video{
+    margin: 0 auto;
+}
+.h2{
+margin-top: 40px;
+text-align: center;
+}
+.menu-item a:hover{
+    border-bottom: 1px solid  rgb(216, 175, 145);
+    opacity: 0.6;
+transition: 0.6s;
+}
+.gallery > figure{
+    width: 20%;
+    max-width: 200px;
+    border: 1px solid bisque;
+    border-radius: 5px;
+    padding: 5px;
+margin: 0;
+}
+.gallery img{
+    width: 100%;
+}
+.gallery{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   align-items: center;
+   flex-wrap: wrap;
+} 
+form{
+    display: grid;
+    grid-template-columns: repeat(4,1fr) ;
+    gap: 30px;
+}
+form textarea{
+    grid-column: 1/-1;
+    resize: none;
+}
+form button{
+    grid-column: 1/-1;
+}
+.world-map{
+    transition: 0.5x;
+    /*filter: blur(5px); размытие*/
+    /* filter: grayscale(60%); ч/б */
+}
+.world-map:hover{
+    /*transform: scale(0.5): масштаб */
+    /*transform:translate: 100px; смещение по осн.*/
+    /*transform:rotate: 100deg;поворот */
+   /* filter:none; отмена фильтров*/
+    box-shadow:10px 10px 5px rgb(94, 82, 76)
+}
+.country-list{
+    transition: 0.5x;
+    box-shadow: 10px 10px 5px rgb(87, 70, 62);
+}
+.gallery{
+    transition: 1x;
+    /* filter: grayscale(60%); ч/б */
+}
